@@ -221,7 +221,7 @@ function manage_icmp {
 # BitTorrent Blocker
 function bittorrent_blocker {
     echo "Downloading and executing BitTorrent blocker script..."
-    wget https://github.com/meysamsh1092/bit-blocker/main/bt.sh
+    wget https://raw.githubusercontent.com/meysamsh1092/bit-blocker/main/bt.sh
     chmod +x bt.sh
     bash bt.sh
     echo "BitTorrent blocker script executed. Press Enter to return to menu."
