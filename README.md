@@ -2,6 +2,6 @@ simple script to activate firewall and block outgoing traffic to private ip rang
 
 ## Install
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/meysamsh1092/firewall/main/firewall.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/meysamsh1092/firewall/main/f2.sh)
 
 ```
