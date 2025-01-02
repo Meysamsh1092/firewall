@@ -157,6 +157,9 @@ function install_and_configure {
     sudo iptables -A INPUT -p tcp --dport 302 -j DROP
     sudo iptables -A INPUT -p tcp --dport 166 -j DROP
     sudo iptables -A INPUT -p tcp --dport 78 -j DROP
+    sudo iptables -A INPUT -p udp --dport 302 -j DROP
+    sudo iptables -A INPUT -p udp --dport 166 -j DROP
+    sudo iptables -A INPUT -p udp --dport 78 -j DROP
 
     iptables-save
     sudo apt install iptables-persistent -y
